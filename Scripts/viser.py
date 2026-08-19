@@ -12,7 +12,6 @@ import torchvision.models as models
 from tqdm import tqdm
 from datetime import datetime
 from Evaluation import evaluation
-from models import model_selection
 from DatasetLoader import datasetLoader
 sys.path.append("../")
 
