@@ -7,7 +7,8 @@ Official repository for the IEEE Access paper: **[IEEEXplore]() | [ArXiv](https:
 
 ## Experimental Pipeline
 <p align="center">
-  <img src="Assets/VISER-teaser-v3.pdf" width="1000" />
+  <img src="<img width="1999" height="999" alt="image" src="https://github.com/user-attachments/assets/28375954-993f-4bed-b520-47ff95377e29" />
+" width="1000" />
 </p>
 
 
