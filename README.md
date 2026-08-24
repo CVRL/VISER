@@ -13,10 +13,33 @@ Official repository for the IEEE Access paper: **[IEEEXplore]() | [ArXiv](https:
 
 ## Dataset Overview
 #### Summary
-At a high level, the dataset is organized...
+At a high level, the dataset is a JSON file where each object includes:
+* A reference to the original iris image
+* Ground truth label
+* Attack type category
+* Links to saliency maps for each tested configuration for the image
 
 #### Details
-The dataset is...
+The dataset is organized as a list of JSON objects where each object refers to an iris sample from the dataset described in the paper. Each JSON object contains a reference to the iris sample and the attack type the sample represents with Live indicating Bonafide, or Spoof indicating some type of presentation attack category. Additionally there is a dictionary of image links that correspond to the different saliency map configurations that are associated with this image, i.e. *"Denoised_Initial_ET": "Denoised_Initial_ET/9_5_blended.png"* is a reference to the de-noised initial eye tracking saliency map for the image 9_5.png that was tested during the experiments.
+
+#### Example JSON Object
+```json
+    {
+        "irisImageLink": "9_5.png",
+        "label": "Live",
+        "attackType": "Live",
+        "saliencyMaps": {
+            "Denoised_Initial_ET": "Denoised_Initial_ET/9_5_blended.png",
+            "Denoised_Full_ET": "Denoised_Full_ET/9_5_blended.png",
+            "Initial_Eye_Tracking": "Initial_Eye_Tracking/9_5_blended.png",
+            "Full_Eye_Tracking": "Full_Eye_Tracking/9_5_blended.png",
+            "Segmentation_Masks": "Segmentation_Masks/9_5.png",
+            "Hand_Annotations_Low_Entropy": "Hand_Annotations_Low_Entropy/9_5_blended.png",
+            "Hand_Annotations_Equal_Entropy": "Hand_Annotations_Equal_Entropy/9_5_blended.png",
+            "Hand_Annotations_High_Entropy": "Hand_Annotations_High_Entropy/9_5_blended.png"
+        }
+    }
+```
 
 #### Requesting a Copy of the Dataset
 Instructions on how to obtain a copy of the dataset can be found at the [Notre Dame's Computer Vision Research Lab webpage](https://cvrl.nd.edu/projects/data/#VISER-2026-dataset) (VISER Dataset). Any questions can be directed to Adam Czajka at aczajka@nd.edu.
