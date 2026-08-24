@@ -138,13 +138,13 @@ def get_apcer_at_fixed_bpcer(y_true, y_pred, target_bpcer=0.05):
 if __name__ == "__main__":
 
     backbones = ['Densenet']
-    saliencyTypes = ['Baseline', 'Segmentation_Masks', 'ET_All_Phases', 'ET_Initial', 'HA_GB5',
-                     'HA_GB10', 'HA_No_Blur', 'HDBSCAN_All_Phases', 'HDBSCAN_Initial']
+    saliencyTypes = ['Baseline', 'Segmentation_Masks', 'Full_ET', 'Initial_ET', 'HA_Equal_Entropy',
+                     'HA_High_Entropy', 'HA_Low_Entropy', 'Denoised_Full_ET', 'Denoised_Initial_ET']
 
     normedATs = ["Printout", "Diseased", "Post_Mortem", "Synthetic", 
                  "Contacts_+_Print","Textured_Contact","Artificial"]
     
-    jsonDir = f'.../VISER/JSON_Results/Entropy'
+    jsonDir = f'.../VISER/JSON_Results'
     os.makedirs(jsonDir, exist_ok=True)
 
     jsonResultObject = {
