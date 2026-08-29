@@ -1,9 +1,10 @@
 # VISER: Visually-Informed System for Enhanced Robustness in Iris Presentation Attack Detection
 
-Official repository for the IEEE Access paper: **[IEEEXplore]() | [ArXiv](https://arxiv.org/abs/2603.17859)**
+Official repository for the paper: Byron Dowling, Jacob Piland, Eleanor Frederick, Christopher Sweet and Adam Czajka, "VISER: Visually-Informed System for Enhanced Robustness in Iris Presentation Attack Detection," IEEE/IAPR International Joint Conference on Biometrics, Rome, Italy, September 1-4, 2026 **([ArXiv](https://arxiv.org/abs/2603.17859) | [IEEEXplore]())**
+
 
 ## Abstract
-> Human perceptual priors have shown promise in saliency-guided deep learning training, particularly in the domain of iris presentation attack detection (PAD). Common saliency approaches include hand annotations obtained via mouse clicks and eye gaze heatmaps derived from eye tracking data. However, the most effective form of human saliency for raising generalization to unknown attack classes in iris PAD remains under-explored. In this paper, we conduct a series of experiments comparing hand annotations, eye tracking heatmaps, segmentation masks, and foundation model embeddings to a state-of-the-art deep learning-based baseline on the task of unknown attack type classification for iris PAD. Results in a leave-one-attack-type out paradigm indicate that denoised eye tracking heatmaps show the best generalization improvement over cross entropy in Attack Presentation Classification Error Rate (APCER) at Bona Fide Presentation Classification Error Rate (BPCER) of 1%. Along with this paper, we offer trained models, code, and saliency maps for reproducibility and to facilitate follow-up research efforts.
+> Human perceptual priors have shown promise in saliency-guided deep learning training, particularly in the domain of iris presentation attack detection (PAD). Common saliency approaches include hand annotations obtained via mouse clicks and eye gaze heatmaps derived from eye tracking data. However, the most effective form of human saliency for raising generalization to unknown attack classes in iris PAD remains under-explored. In this paper, we conduct a series of experiments comparing hand annotations, eye tracking heatmaps, segmentation masks, and foundation model embeddings to a state-of-the-art deep learning-based baseline on the task of unknown attack type classification for iris PAD. Results in a leave-one-attack-type out paradigm indicate that denoised eye tracking heatmaps show the best generalization improvement over cross entropy in Attack Presentation Classification Error Rate (APCER) at Bona Fide Presentation Classification Error Rate (BPCER) of 1%.
 
 ## Experimental Pipeline
 <p align="center">
@@ -42,15 +43,15 @@ The dataset is organized as a list of JSON objects where each object refers to a
 ```
 
 #### Requesting a Copy of the Dataset
-Instructions on how to obtain a copy of the dataset can be found at the [Notre Dame's Computer Vision Research Lab webpage](https://cvrl.nd.edu/projects/data/#VISER-2026-dataset) (VISER Dataset). Any questions can be directed to Adam Czajka at aczajka@nd.edu.
+Researchers interested in obtaining a copy of the data associated with the paper are requested to execute the [data sharing license agreement](Assets/ND-IJCB26-VISER-license.pdf). **Note for university licensees:** We cannot accept licenses signed by students or postdoctoral scholars under any circumstances. We cannot accept licenses signed by faculty members unless they have been explicitly delegated the authority to make contracts on behalf of the institution. Your institution's legal or contracting office must review and execute the license. 
 
 ## Citation
 ```
-@article{dowling2026viser,
+@ inproceedings{dowling2026viser,
   title={VISER: Visually-Informed System for Enhanced Robustness in Open-Set Iris Presentation Attack Detection},
   author={Dowling, Byron and Piland, Jacob and Frederick, Eleanor and Sweet, Christopher and Czajka, Adam},
-  journal={arXiv preprint arXiv:2603.17859},
-  year={2026}
+year={2026},
+      booktitle={IEEE/IAPR International Joint Conference on Biometrics, Rome, Italy, September 1-4, 2026},
 }
 ```
 
