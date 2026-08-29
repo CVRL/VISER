@@ -48,10 +48,13 @@ Researchers interested in obtaining a copy of the data associated with the paper
 ## Citation
 ```
 @ inproceedings{dowling2026viser,
-  title={VISER: Visually-Informed System for Enhanced Robustness in Open-Set Iris Presentation Attack Detection},
-  author={Dowling, Byron and Piland, Jacob and Frederick, Eleanor and Sweet, Christopher and Czajka, Adam},
-year={2026},
-      booktitle={IEEE/IAPR International Joint Conference on Biometrics, Rome, Italy, September 1-4, 2026},
+  title={VISER: Visually-Informed System for Enhanced Robustness
+         in Open-Set Iris Presentation Attack Detection},
+  author={Dowling, Byron and Piland, Jacob and Frederick,
+         Eleanor and Sweet, Christopher and Czajka, Adam},
+  year={2026},
+  booktitle={IEEE/IAPR International Joint Conference
+         on Biometrics, Rome, Italy, September 1-4, 2026},
 }
 ```
 
