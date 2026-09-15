@@ -45,6 +45,10 @@ The dataset is organized as a list of JSON objects where each object refers to a
 #### Requesting a Copy of the Dataset
 Researchers interested in obtaining a copy of the data associated with the paper are requested to execute the [data sharing license agreement](Assets/ND-IJCB26-VISER-license.pdf). **Note for university licensees:** We cannot accept licenses signed by students or postdoctoral scholars under any circumstances. We cannot accept licenses signed by faculty members unless they have been explicitly delegated the authority to make contracts on behalf of the institution. Your institution's legal or contracting office must review and execute the license. 
 
+## Scripts and Model Weights
+
+Scripts to replicate the experiments presented in the paper are in the `[Scripts](Scripts/)` folder. Required model weights can be downloaded from [this Google Drive location](https://drive.google.com/drive/folders/1kUhVMcFDGftVShtkUUIT33vs6JVQnk9F?usp=sharing).
+
 ## Citation
 ```
 @inproceedings{dowling2026viser,
