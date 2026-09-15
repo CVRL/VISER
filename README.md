@@ -47,7 +47,7 @@ Researchers interested in obtaining a copy of the data associated with the paper
 
 ## Scripts and Model Weights
 
-Scripts to replicate the experiments presented in the paper are in the `[Scripts](Scripts/)` folder. Required model weights can be downloaded from [this Google Drive location](https://drive.google.com/drive/folders/1kUhVMcFDGftVShtkUUIT33vs6JVQnk9F?usp=sharing).
+Scripts to replicate the experiments presented in the paper are in the [Scripts](Scripts/) folder. Required model weights can be downloaded from [this Google Drive location](https://drive.google.com/drive/folders/1kUhVMcFDGftVShtkUUIT33vs6JVQnk9F?usp=sharing).
 
 ## Citation
 ```
